@@ -8,7 +8,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	
+	<style>
+		.container div {
+			border: 1px
+		}
+	</style>
 </head>
 <body>
 
@@ -60,8 +64,8 @@
 		<h1>Set columns</h1>
 		<div class="row">
 			<div class="col-4">column</div>
-			<div class="col-5">column</div>
-			<div class="col-3">column</div>
+			<div class="col-4">column</div>
+			<div class="col-4">column</div>
 		</div>
 	</div>
 	
@@ -106,5 +110,126 @@
 		</form>
 	</div>
 	
+	<div class="container" style="margin-top:30px;">	
+		<h1>Showing as a div</h1>
+		<div class="list-group">
+			<a href="#" class="list-group-item">Homepage</a>
+			<a href="#" class="list-group-item justify-content-between d-flex align-items-center">Notifications <span class="badge badge-primary">3</span></a>
+			<a href="#" class="list-group-item">About</a>
+		</div>
+		<h1>Showing as a list</h1>
+		<ul class="list-group">
+			<li class="list-group-item">Homepage</li>
+			<li class="list-group-item justify-content-between d-flex align-items-center">Notifications <span class="badge badge-primary">3</span></li>
+			<li class="list-group-item">About</li>
+		</ul>
+	</div>
+	<div class="container" style="margin-top:30px;">	
+		<h1>Showing three cards</h1>
+		<div class="row">
+			<div class="col-sm">
+				<div class="card">
+					<img class="card-img-top" src="https://placeimg.com/640/480/nature">
+					<div class="card-body">
+						<h5 class="card-title">Title</h5>
+						<p class="card-text">Some paragraph is going hyere</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">Item 1</li>
+						<li class="list-group-item">Item 2</li>
+						<li class="list-group-item">Item 3</li>
+					</ul>
+					<div class="card-body">
+						<a href="#" class="btn btn-primary">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card">
+					<img class="card-img-top" src="https://placeimg.com/640/480/nature">
+					<div class="card-body">
+						<h5 class="card-title">Title</h5>
+						<p class="card-text">Some paragraph is going hyere</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">Item 1</li>
+						<li class="list-group-item">Item 2</li>
+						<li class="list-group-item">Item 3</li>
+					</ul>
+					<div class="card-body">
+						<a href="#" class="btn btn-primary">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card">
+					<img class="card-img-top" src="https://placeimg.com/640/480/nature">
+					<div class="card-body">
+						<h5 class="card-title">Title</h5>
+						<p class="card-text">Some paragraph is going hyere</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">Item 1</li>
+						<li class="list-group-item">Item 2</li>
+						<li class="list-group-item">Item 3</li>
+					</ul>
+					<div class="card-body">
+						<a href="#" class="btn btn-primary">Button</a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="container" style="margin-top:30px;">	
+		<h1>Tables</h1>
+		<table class="table table-dark table-bordered table-hover table-sm">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Spouse</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td>Spouse</td>
+					<td>Age</td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>Spouse</td>
+					<td>Age</td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>Spouse</td>
+					<td>Age</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="container" style="margin-top:30px;">	
+		<a href="alert.html" class="btn btn-primary">Button</a>		
+	</div>
+	<div class="container" style="margin-top:30px;">	
+		<h1>More nav examples</h1>
+		<ul class="nav">
+			<li class="nav-item">
+				<a href="#" class="nav-link">Item1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Item1</a>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">Item2</a>
+					<a href="#" class="dropdown-item">Item1</a>
+					<a href="#" class="dropdown-item">Item1</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Item1</a>
+			</li>
+		</ul>		
+	</div>
 </body>
 </html>
